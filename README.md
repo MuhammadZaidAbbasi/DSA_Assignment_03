@@ -10,6 +10,17 @@ This project implements and evaluates several non-comparison-based sorting algor
 
 ---
 
+## How to Compile & Run
+### **Compile**
+```bash
+g++ -std=c++17 -O2 Assignment_03.cpp -o sorts
+```
+### **Run**
+```
+./sorts
+```
+---
+
 ## 1. Counting Sort (Non-Stable)
 
 **Idea:** Count occurrences of each key and overwrite array in sorted order.  
@@ -63,7 +74,7 @@ This project implements and evaluates several non-comparison-based sorting algor
 - **Worst:** `O(n²)`  
   - happens when all values fall into one bucket
    
-**Assumption:** Values lie in a known range (typically `[0,1)`).
+**Assumption:** Values lie in a known range (e.g. `[0,1)`).
 
 ---
 
@@ -106,4 +117,6 @@ This project implements and evaluates several non-comparison-based sorting algor
 - **Bucket Sort:** strong on uniform data, worst-case slows heavily  
 - **Pigeonhole:** impractical for large key ranges due to memory cost
 
-
+---
+## 7. Author
+### Muhammad Zaid Abbasi & Luqman Shehzad
